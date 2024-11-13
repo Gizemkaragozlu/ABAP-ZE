@@ -388,7 +388,7 @@ CLASS lcl_report IMPLEMENTATION.
   METHOD:format_source.
     CALL FUNCTION 'PRETTY_PRINTER'
       EXPORTING
-        inctoo = abap_true
+        inctoo = abap_false
       TABLES
         ntext  = ct_source
         otext  = ct_source
