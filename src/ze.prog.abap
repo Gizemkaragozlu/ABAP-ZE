@@ -17,10 +17,7 @@
 *&
 *& Disclaimer:
 *&
-*&   1 . Users bear all risks associated with using this program. The user
-*&       is responsible for ensuring that the use of this program complies
-*&       with all applicable laws and regulations, and is accountable for
-*&       any consequences arising from its use.
+*&   1 . Users bear all risks associated with using this program.
 
 REPORT ze.
 
