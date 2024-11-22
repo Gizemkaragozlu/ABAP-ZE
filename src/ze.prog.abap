@@ -350,6 +350,7 @@ CLASS lcl_report IMPLEMENTATION.
              |{ mc_texts-word    WIDTH = 30 }|.
       FORMAT INTENSIFIED OFF.
       DO.
+        SKIP.
         IF strlen( lv_msg ) GT 50.
           WRITE: |{ substring( val = lv_msg len = 50 ) WIDTH = 55 }|,
                  |{ lv_lin                             WIDTH = 10 }|,
